@@ -1,10 +1,3 @@
-import Page from '../components/Page';
-
 export default function SellPage() {
-  return (
-    <Page>
-      <p>Hello!</p>
-      <p>hey</p>
-    </Page>
-  );
+  return <p>Hallo I am the selling page</p>;
 }
