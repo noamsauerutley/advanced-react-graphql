@@ -1,5 +1,5 @@
-/* eslint-disable import/no-unresolved */
-import Link from 'next/Link';
+import Link from 'next/link';
+import Nav from './Nav';
 
 export default function Header() {
   return (
@@ -10,6 +10,7 @@ export default function Header() {
       <div className="sub-bar">
         <p>Search</p>
       </div>
+      <Nav />
     </header>
   );
 }
