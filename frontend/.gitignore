@@ -1,7 +1,5 @@
 .DS_store
-
-/.vscode
-/.next/static/
-/node_modules
-
+.next/static
+.vscode
+node_modules
 package-lock.json
